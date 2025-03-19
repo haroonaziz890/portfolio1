@@ -1,0 +1,40 @@
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .custom-img {
+    width: 100%;
+    height: 80vh; /* Adjust height based on screen size */
+    object-fit: cover;
+    border-radius: 0; /* No rounded corners for full-width */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Zoom Effect on Hover */
+  .custom-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .custom-img {
+      height: 70vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-img {
+      height: 60vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .custom-img {
+      height: 50vh;
+    }
+  }
+  

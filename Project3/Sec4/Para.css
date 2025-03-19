@@ -1,0 +1,47 @@
+/* Full Page Black Background */
+.para-container {
+    background-color: black;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styling for Paragraph */
+  .para-text {
+    font-size: 1.5rem;
+    color: #00e1ff; /* Light Blue */
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for Heading */
+  .heading-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffcc00; /* Gold */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .para-text {
+      font-size: 1.2rem;
+    }
+  
+    .heading-text {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .para-text {
+      font-size: 1rem;
+    }
+  
+    .heading-text {
+      font-size: 2rem;
+    }
+  }
+  
